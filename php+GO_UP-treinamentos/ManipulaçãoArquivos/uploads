@@ -1,0 +1,12 @@
+public class ExercicioJava {
+    public static void main(String[] args) {
+        String cidade = "Monte Negro";
+        int idade = 18;
+
+        if (idade >= 18 && cidade.equals("Monte Negro")) {
+            System.out.println("Etapa concluída");
+        } else {
+            System.out.println("Tente novamente");
+        }
+    }
+}
